@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient Generator</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+        }
+        section{
+            text-align: center;
+            position: relative;
+            top: 180px;
+        }
+        button{
+            height: 50px;
+            width: 140px;
+            border: 1px solid black;
+            border-radius: 30px;
+            margin-bottom: 30px;
+        }
+        #myButton{
+            color: #fff;
+            background-color:#051938;
+            margin-right: 30px;
+            font-size: 0.9rem;
+            padding: 0 20px;
+        }
+        #myButton2{
+            color: black;
+            background-color:#38a003 ;
+            font-size: 0.9rem;
+            padding: 0 20px;
+            margin-left: 30px;
+        }
+        h2{
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 900;
+        }
+        .copyCode{
+            height:90px;
+            width: 300px;
+            position:relative;
+            left: 38%;
+            border: 1px solid #fff;
+            color: #fff;
+            border-left: 4px solid #fff;
+            border-radius: 20px;
+            padding-top: 20px;
+            font-size: 1.1rem;
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+<body>
+   <section>
+      <div>
+        <button id="myButton">#051938</button>
+        <button id="myButton2">#008793</button>
+      </div>
+      <h2>Copy your code here ⬇️</h2>
+      <div class="copyCode">
+        background-image: linear-gradient(to right,rbg(92,145,229), rgb(152,63,198))
+      </div>
+   </section> 
+
+   <script src="BackgroundGradientGenerator.js"></script>
+</body>
+</html>
